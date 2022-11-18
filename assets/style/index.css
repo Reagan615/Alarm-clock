@@ -265,8 +265,13 @@ div.active .icon {
 } 
 
 div.active .alarm-time {
+    font-weight: 600;
+    font-size: 18px;
     transition-delay: 0.2s;
     transform: translateX(0);
+    background-image: -webkit-linear-gradient(135deg,#1de5e2,#b588f7);
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent; 
 }
 
 
