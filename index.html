@@ -7,7 +7,6 @@
          <meta name="description" content="My new cool project">
          <meta name="keywords" content="HTML, CSS, SEO, web, web development">
          <title>Personal website</title>
-         <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
          <link rel="stylesheet" href="./assets/style/index.css" media="all">
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
          <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,21 +42,36 @@
                         </a>
                     </li>
                   </ul>
-                  <div class="bars">
-                     <i class="fa-solid fa-bars"></i>
-                     
-                     <div class="menu">
-                        <div class="home"><a href="./index.html">Home</a></div>
-                        <div class="about me"><a href="./about me.html">About me</a></div>
-                        <div class="contact"><a href="./contact.html">Contact</a></div>
-                     </div>
-                 </div>
                 </nav> 
             </div>
         </header>
-        <div class="container">
+        <section>
+            <div class="container">
+                <div class="banner">
+                    <div class="time">
+                        <span class="show-time"></span>
+                    </div>
+                    <div class="active">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-tongzhi"></use>
+                        </svg>
+                        <span class="alarm-time"></span>
+                    </div>
+                    <div class="setting">
+                        <div class="set-time">
+                            <input type="number" class="hour"><span>:</span><input type="number"  class="minute">
+                        </div>
+                        <div class="set-alarm"><button>Set alarm</button></div>
+                    </div>
+                    <div class="tips">
+                        <p>Please enter the correct time format</p>
+                        <p>For example: 11:20</p>
+                    </div>
+                </div>
            
-        </div>
-      
+            </div>
+
+        </section>
+       
      </body>
  </html>
