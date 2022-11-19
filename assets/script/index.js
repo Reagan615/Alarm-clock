@@ -20,7 +20,7 @@ let setAlarm = document.querySelector('.set-alarm button');
 let showAlarm = document.querySelector('.alarm-time');
 let icon = document.querySelector('.icon');
 let tips = document.querySelector('.tips');
-const alarm = new Audio('C:/Users/lenovo/Desktop/Alarm clock/assets/audio/alarm.mp3');
+const alarm = new Audio('assets/audio/alarm.mp3');
 alarm.type = 'audio/mp3';
 
 setAlarm.addEventListener('click', function() {
